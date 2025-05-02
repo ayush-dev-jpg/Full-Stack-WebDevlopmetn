@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    text-decoration: wavy red overline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    text-align: right;
+    text-decoration: black line-through;
+}
+p{
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-weight: 700;
+    text-decoration: double purple overline;
+}
+a{
+    text-decoration: none;
+}

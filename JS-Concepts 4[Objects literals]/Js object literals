@@ -1,0 +1,71 @@
+Used to store keyed collection and complex entities.
+propert => (key,value)pair
+Objects are a collection of properties
+
+eg:
+student can have various properties such as
+let student(object)={
+name(key):"Ayush"(value),
+age(key):20(value),
+marks(key):94.4(value)
+these are stored in the form of key value pair In the object Student.
+};
+
+Js automatically convers objects keys to strings
+Even if we made the number as a key, the number will be converted to a string.
+e.g:
+const obj= {
+    1:"a",
+    2:"b",
+    true:"c",
+    null:"d",
+    undefined:"e"
+ };//Here js converts it to string 
+
+//Object of Objects(Storinf information of multiple students)
+const classInfo = {
+    aman: {
+        grade:"A+",
+        city:"Delhi"
+    },
+    shraddha:{
+        grad:"A",
+        city:"Pune"
+    },
+    karan:{
+        grade:"O",
+        city:"Mumbai"
+    }
+
+ };
+ To access the above object:
+ › classInfo
+‹ • {aman: f}, shraddha: {.}, karan: {3}
+› classInfo. aman
+• • {grade: 'A+', city: 'Delhi'}
+› classInfo. aman. grade
+« 'A+'
+
+Array of Objects
+ const classInfo2 = [
+    {
+        name:"aman",
+        grade:"A+",
+        city:"Delhi"
+    },
+    {
+        name:"Shraddha",
+        grade:"A+",
+        city:"Pune"
+    },
+    {
+        name:"Karan",
+        grade:"O",
+        city:"Mumbai"
+    }
+ ];
+ How to execute the above code:
+ › classInfo2[11. name
+‹• 'Shraddha'
+› classInfo2[1].city
+« 'Pune'

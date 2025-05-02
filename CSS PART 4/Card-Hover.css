@@ -1,0 +1,35 @@
+.card1{
+    width:200px ;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px black;
+    transition: 1s;
+}
+.card2{
+    width:200px ;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block; 
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px black;
+    transition: 1s;
+}
+.desc{
+    padding:0 2px 0 2px ;
+}
+.image1{
+    width: 30%;
+}
+.image2{
+    width: 20%;
+}
+.card1:hover{
+    box-shadow: 0 8px 16px goldenrod ;
+}
+.card2:hover{
+    box-shadow: 0 8px 16px goldenrod ;
+}
